@@ -8,7 +8,7 @@ This extension swizzles `setContentOffset` and `setContentSize` on `UIScrollView
 UITableView:
 ```swift
 override func viewDidLoad() {
-	super.viewDidLoad()		
+	super.viewDidLoad()
 
 	//Add the infinite scroll handler to the tableView
 	tableView.addInfiniteScrollWithHandler { (scrollView) in
@@ -27,6 +27,7 @@ override func viewDidLoad() {
 This is a 100% direct reimplementation of [pronebird's UIScrollView-InfiniteScroll](https://github.com/pronebird/UIScrollView-InfiniteScroll) in pure Swift. I didn't want the overhead of the Objective-C code in a Swift-only project.
 
 ### To Do
+* COMMENTS (_sigh_)
 * Build out the custom loading indicator feature that the original implementation has
 * Create a demo app
 * CocoaPods and Carthage support
