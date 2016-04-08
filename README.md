@@ -4,6 +4,9 @@ UIScrollView extension for infinite scrolling, in Swift. (Based on [https://gith
 This extension swizzles `setContentOffset` and `setContentSize` on `UIScrollView`, so don't use it if that will be a problem for you.
 
 ### Basic Usage
+For now, just add the `InfiniteScrollView.swift` file to your project.
+
+CocoaPods and Carthage support are on the to-do list.
 
 UITableView:
 ```swift
